@@ -44,7 +44,7 @@ echo.
 echo Poweroff flag file ".\%folder%\%flag_poweroff%" has been removed.
 shutdown /s /f /t %seconds%
 echo Shutdown has been initiated.
-echo You have %seconds% to cancel the shutdown by executing "poweroff-cancel.cmd".
+echo You have %seconds% seconds to cancel the shutdown by executing "poweroff-cancel.cmd".
 echo.
 pause
 goto end
